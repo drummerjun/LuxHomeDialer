@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="arm_mode">
+        <item>@string/system_arm</item>
+        <item>@string/system_parm</item>
+        <item>@string/system_disarm</item>
+    </string-array>
+    <string-array name="arm_code">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="language_id">
+        <item>English</item>
+        <!--
+        <item>Español</item>
+        <item>繁體中文</item>
+        <item>残体中文</item>
+        -->
+    </string-array>
+    <string-array name="language_code">
+        <item>0001</item>
+        <item>0034</item>
+        <item>0886</item>
+        <item>0086</item>
+    </string-array>
+    <string-array name="siren_vol">
+        <item>@string/siren_mute</item>
+        <item>@string/siren_low</item>
+        <item>@string/siren_high</item>
+    </string-array>
+    <string-array name="siren_vol_code">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="context_menu">
+        <item>@string/sys_edit</item>
+        <item>@string/sys_delete</item>
+    </string-array>
+    <string-array name="context_menu_code">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+</resources>

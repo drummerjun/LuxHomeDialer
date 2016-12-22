@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/icon_backgroundlight">
+    <View
+        android:id="@+id/horizontal_separater"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="3dp"/>
+    <View
+        android:id="@+id/vertical_separater"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/btn7_rfid"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/vertical_separater"
+        android:layout_toStartOf="@id/vertical_separater"
+        android:paddingTop="10dp"
+        android:drawableTop="@drawable/icon_rfidcontrol"
+        android:background="@drawable/selector_buttons"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:text="@string/icon_rfid"/>
+
+    <Button
+        android:id="@+id/btn10_zone"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/vertical_separater"
+        android:layout_toEndOf="@id/vertical_separater"
+        android:layout_alignTop="@id/btn7_rfid"
+        android:paddingTop="10dp"
+        android:drawableTop="@drawable/icon_zones"
+        android:background="@drawable/selector_buttons"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:text="@string/title_zone_names"/>
+
+    <Button
+        android:id="@+id/btn5_notification"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_above="@id/btn7_rfid"
+        android:layout_alignStart="@+id/btn7_rfid"
+        android:layout_alignLeft="@+id/btn7_rfid"
+        android:layout_marginBottom="48dp"
+        android:paddingTop="10dp"
+        android:drawableTop="@drawable/icon_notification"
+        android:background="@drawable/selector_buttons"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:text="@string/icon_notification"/>
+
+    <Button
+        android:id="@+id/btn8_speeddial"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_alignTop="@id/btn5_notification"
+        android:layout_alignEnd="@id/btn10_zone"
+        android:layout_alignRight="@id/btn10_zone"
+        android:paddingTop="10dp"
+        android:drawableTop="@drawable/icon_speeddial"
+        android:background="@drawable/selector_buttons"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:text="@string/icon_speeddial"/>
+
+    <Button
+        android:id="@+id/btn3_siren"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@id/btn7_rfid"
+        android:layout_alignStart="@id/btn7_rfid"
+        android:layout_below="@id/btn7_rfid"
+        android:layout_marginTop="48dp"
+        android:paddingTop="10dp"
+        android:drawableTop="@drawable/icon_sirenring"
+        android:background="@drawable/selector_buttons"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:text="@string/icon_siren"/>
+
+    <Button
+        android:id="@+id/btn9_delay"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_alignTop="@id/btn3_siren"
+        android:layout_alignRight="@+id/btn8_speeddial"
+        android:layout_alignEnd="@id/btn8_speeddial"
+        android:paddingTop="10dp"
+        android:drawableTop="@drawable/icon_activationdelay"
+        android:background="@drawable/selector_buttons"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:text="@string/icon_delay"/>
+
+
+</RelativeLayout>
